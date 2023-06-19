@@ -3,13 +3,31 @@ body{
     color: white;
 }
 
+.navbar {
+  background-color: rgb(34, 34, 34);
+  font-family: Arial, Helvetica, sans-serif;
+} 
+
+.navbar-brand{
+  color: rgb(161, 161, 161);
+}
+
+.menu_item {
+  color: rgb(161, 161, 161);
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-stretch: normal;
+  
+}
+
 .row {
 width: 50rem;
 text-align: center;
 }
 
-.container {
-   
+/* Displey Flex para la galería imagenes */
+.container {   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,7 +127,27 @@ section img {
 
 .imagen_pages{
   padding: 2%;
-  
+  width: 50%;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+ 
+}
+
+.maridajes_list{
+  margin-left: 5%;
+  margin-right: 5%;
+  list-style-type: none;
+}
+
+.intro_malbec {
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
+.field {
+  margin-top: 10%;
 }
 
 
