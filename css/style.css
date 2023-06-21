@@ -46,8 +46,18 @@ h1, h2, h3, h4, h5, p {
     font-family: Roboto;
 }
 
+.burger{
+ 
+  background-color: rgb(163, 160, 160);
+
+}
+
+
+
 .d-block {
-  height: 600px; 
+  height: 500px;  
+  object-fit: contain; 
+
 }
 
 .image-gallery {
